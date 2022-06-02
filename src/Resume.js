@@ -3,11 +3,11 @@ function Resume() {
   return (
     <div className="containner">
       <div className="above intro">
-        
+
         <p className='name'>Zepeng Chen
-        <a href='http://zepengblog.herokuapp.com/portfolios' target="_blank">
-          <span>My portfolios<i class="link fa-solid fa-up-right-from-square"></i></span>
-        </a>
+          <a href='http://zepengblog.herokuapp.com/portfolios' target="_blank">
+            <span>My portfolios<i class="link fa-solid fa-up-right-from-square"></i></span>
+          </a>
         </p>
         <h2 className='title'>About me a bit </h2>
         <p className='desc'>I was an electronics engineer in China mainly focusing on embedded hardware system
@@ -122,10 +122,10 @@ function Resume() {
           <div className="project">
             <p className='cat rightcat'>Academic {"&"} Personal Projects </p>
             <div className='section'>
-              <a href='http://zepengblog.herokuapp.com/'>
-              <p className='title'>Personal Blog (03/2022 - 06/2022)
-                <i class="link fa-solid fa-up-right-from-square"></i>
-              </p>
+              <a href='http://zepengblog.herokuapp.com/' target="_blank">
+                <p className='title'>Personal Blog (03/2022 - 06/2022)
+                  <i class="link fa-solid fa-up-right-from-square"></i>
+                </p>
               </a>
               <div className='task'>
                 <ol>
@@ -144,10 +144,10 @@ function Resume() {
             </div>
 
             <div className='section'>
-              <a href='https://github.com/zepsgit/ocean-mammal-sounds-classification'>
-              <p className='title'>Marine Mammal Sound Classification (01/2022 - 06/2022)
-                <i class="link fa-solid fa-up-right-from-square"></i>
-              </p>
+              <a href='https://github.com/zepsgit/ocean-mammal-sounds-classification' target="_blank">
+                <p className='title'>Marine Mammal Sound Classification (01/2022 - 06/2022)
+                  <i class="link fa-solid fa-up-right-from-square"></i>
+                </p>
               </a>
               <div className='task'>
                 <ol>
@@ -165,10 +165,10 @@ function Resume() {
             </div>
 
             <div className='section'>
-              <a href='https://github.com/zepsgit/OpticalMusicRecognition'>
-              <p className='title'>Optical Music Recognition (05/2021 - 09/2021)
-                <i class="link fa-solid fa-up-right-from-square"></i>
-              </p>
+              <a href='https://github.com/zepsgit/OpticalMusicRecognition' target="_blank">
+                <p className='title'>Optical Music Recognition (05/2021 - 09/2021)
+                  <i class="link fa-solid fa-up-right-from-square"></i>
+                </p>
               </a>
               <div className='task'>
                 <ol>
