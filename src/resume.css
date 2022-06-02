@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containner{
+    padding-left: 25px;
+    padding-top: 25px;
+    width: 793px;
+    height: 1122px;
+}
+.intro{
+    background-color: #00604a;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.portfolio{
+    display: inline-block;
+}
+.intro span{
+    color:bisque;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.intro span i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+p.name{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.intro .title{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.intro .desc{
+    font-size: 16px;
+    margin-top: 0;
+}
+.contact{
+    margin-top: 15px;
+    color: blue;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+.contact p{
+    margin-top: 0;
+}
+.blog, .linkedin, .github{
+    color: blue;
+}
+.github{
+    margin-bottom: 5px;
+}
+.below{
+    display: flex;
+}
+.left{
+    flex: 1;
+    margin-right: 30px;
+}
+.right{
+    flex: 3;
+    margin-right: 20px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+}
+.cat{
+    font-size: 20px;
+    font-weight: 500;
+    color: green;
+    border-bottom: 2px solid palevioletred;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.skill ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.skill li{
+    list-style: none;
+    color: white;
+    background-color: blueviolet;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+.language .lan{
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.language .desc{
+    margin-top: 0;
+    color: blueviolet;
+    font-size: 14px;
+}
+
+.interest li{
+    list-style: none;
+    color: black;
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size:14px;
+    font-weight: 500;
+    border: grey 2px solid;
+}
+.interest ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0;
+    margin-top: 10px;
+}
+.rightcat{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.section{
+    padding-left: 20px;
+
+}
+.work .title{
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.work .company{
+    margin-top:5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.timeline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: green;
+    font-size: 15px;
+    font-weight:400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.timeline .time, .timeline .city{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.task ol li{
+    font-size: 18px;
+}
+.project .title{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+} 
+.project .title .link{
+    margin-left: 5px;
+    font-size: 13px;
+    color: blue
+}
+.section .task{
+    padding-left: 0;
+}
+.project .section{
+    margin-bottom: 5px;
+}
+.section ol{
+margin-top: 0;
+margin-left: 0;
+padding-left: 17px;
+list-style: square;
+font-size: 18px;
+}
+.uni{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.uni .degree{
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.uni .uniname{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.uni ol{
+    padding-left: 17px;
+    list-style: square;
+    margin-top: 0;
+}
+li{
+    font-family: serif;
+    font-size: 16px;
+}
