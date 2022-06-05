@@ -4,16 +4,20 @@
 }
 .containner{
     padding-left: 25px;
-    padding-top: 25px;
+    padding-top: 15px;
     width: 793px;
     height: 1122px;
 }
 .intro{
-    background-color: #00604a;
+    background-color: #479099;
     color: white;
     padding-left: 15px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.intro a{
+    text-decoration: none;
 }
 .portfolio{
     display: inline-block;
@@ -48,20 +52,24 @@ p.name{
     margin-top: 0;
 }
 .contact{
-    margin-top: 15px;
-    color: blue;
+    margin-top: 0px;
     font-size: 16px;
 }
 
-a{
+.contact a{
     text-decoration: none;
+}
+.contact i{
+    margin-bottom: 0;
+    color: #1ba67c;
 }
 .contact p{
     margin-top: 0;
+    margin-bottom: 7px;
+    color: black;
+    font-weight: 500;
 }
-.blog, .linkedin, .github{
-    color: blue;
-}
+
 .github{
     margin-bottom: 5px;
 }
@@ -83,8 +91,8 @@ a{
 .cat{
     font-size: 20px;
     font-weight: 500;
-    color: green;
-    border-bottom: 2px solid palevioletred;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
     margin-bottom: 5px;
     margin-top: 0px;
 }
@@ -98,7 +106,7 @@ a{
 .skill li{
     list-style: none;
     color: white;
-    background-color: blueviolet;
+    background-color: #91BCC2;
     margin-right: 10px;
     margin-bottom: 5px;
     padding: 3px 5px;
@@ -146,7 +154,7 @@ a{
 
 }
 .work .title{
-    color: green;
+    color: blueviolet;
     font-size: 18px;
     font-weight: 500;
     margin-top: 5px;
@@ -161,11 +169,11 @@ a{
 }
 .timeline{
     display: flex;
+    color: black;
     flex-direction: row;
     justify-content: space-between;
-    color: green;
     font-size: 15px;
-    font-weight:400;
+    font-weight:500;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -174,13 +182,18 @@ a{
     margin-bottom: 5px;
 }
 .task ol li{
-    font-size: 18px;
+    font-size: 16px;
 }
 .project .title{
     margin-bottom: 0px;
     font-weight: 500;
     font-size: 18px;
+    color: black;
 } 
+.project a{
+    text-decoration: none;
+
+}
 .project .title .link{
     margin-left: 5px;
     font-size: 13px;
@@ -204,7 +217,6 @@ font-size: 18px;
     margin-bottom: 10px;
 }
 .uni .degree{
-    color: green;
     font-size: 18px;
     font-weight: 500;
     margin-top: 5px;

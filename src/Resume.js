@@ -9,20 +9,19 @@ function Resume() {
             <span>My portfolios<i class="link fa-solid fa-up-right-from-square"></i></span>
           </a>
         </p>
-        <h2 className='title'>About me a bit </h2>
+        <h2 className='title'>About me </h2>
         <p className='desc'>I was an electronics engineer in China mainly focusing on embedded hardware system
-          and sometimes assisting software team in writing drivers of MCU and FPGA. After three years of professional
-          work, I moved to Australia as a backpacker working in farm, hotel, restaurant and meat factory for one and half
-          years; and then I moved to Canada for working on the master's degree of computer engineering.
+          and sometimes assisting software team in writing drivers using C. During my graduate studies, I focus 
+          on web development and the applications of machine learning.
         </p>
       </div>
       <div className="below detail">
         <div className="left">
           <div className="contact">
-            <a href='mailto:zepengchen423@gmail.com'>
+            <a href='mailto:zepengc@mun.ca'>
               <div className='email'>
                 <i class="fa-solid fa-envelope"></i>
-                <p>zepengchen423@gmail.com</p>
+                <p>zepengc@mun.ca</p>
               </div>
             </a>
             <div className='phone'>
@@ -114,6 +113,21 @@ function Resume() {
                     between MCU and peripheral devices.
                   </li>
                   <li>Followed up mass production of an amount of 10k with the reject ratio under 0.5%.</li>
+                </ol>
+              </div>
+            </div>
+
+            <div className='section'>
+              <p className='title'>Backpacker</p>
+              <p className='company'>Farms, Hotels, Restaurants</p>
+              <div className='timeline'>
+                <p className='time'>12/2019 - 05/2021</p>
+                <p className='city'>Australia</p>
+              </div>
+              <div className='task'>
+                <ol>
+                  <li>As a backpacker, I worked in the farms, hotels, meat factories across Australia for saving
+                    tuition and exploring the pretty view of Australia. </li>
                 </ol>
               </div>
             </div>
