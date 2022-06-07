@@ -11,7 +11,7 @@ function Resume() {
         </p>
         <h2 className='title'>About me </h2>
         <p className='desc'>I was an electronics engineer in China mainly focusing on embedded hardware system
-          and sometimes assisting software team in writing drivers using C. During my graduate studies, I focus 
+          and sometimes assisting software team in writing drivers using C. During my graduate studies, I focus
           on web development and the applications of machine learning.
         </p>
       </div>
@@ -57,25 +57,27 @@ function Resume() {
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>React</li>
-              <li>JSON</li>
-              <li>REST API</li>
-              <li>Express</li>
-              <li>Nodejs</li>
               <li>Java</li>
               <li>Python</li>
+              <li>Matlab</li>
+
+              <li>React</li>
+              <li>Express</li>
+              <li>Nodejs</li>
+              <li>Scikit-learn</li>
+              <li>Pandas</li>
+              <li>Numpy</li>
+              <li>OpenCV</li>
               <li>MongoDB</li>
               <li>Database</li>
               <li>SQL</li>
               <li>Git</li>
+
               <li>Web Development</li>
               <li>Machine Learning</li>
+              <li>Computer Vision</li>
               <li>Data Analysis</li>
-              <li>Matlab</li>
-              <li>Skilearn</li>
-              <li>Pandas</li>
-              <li>Numpy</li>
-              <li>OpenCV</li>
+
             </ul>
           </div>
           <div className="language">
@@ -126,8 +128,8 @@ function Resume() {
               </div>
               <div className='task'>
                 <ol>
-                  <li>As a backpacker, I worked in the farms, hotels, meat factories across Australia for saving
-                    tuition and exploring the pretty view of Australia. </li>
+                  <li>As a backpacker, I worked in the farms, hotels, and meat factories across Australia for saving
+                    tuition and exploring the pretty views of Australia. </li>
                 </ol>
               </div>
             </div>
@@ -143,6 +145,10 @@ function Resume() {
               </a>
               <div className='task'>
                 <ol>
+                  <li>
+                    <span style={{ fontWeight: 'bold' }}> JavaScript / HTML / CSS / MERN Stack </span>
+                  </li>
+                  <li>Designed a personal blog which includes writing, updating, login/logout and setting page.</li>
                   <li>Implemented the front-end pages using
                     <span style={{ fontWeight: 'bold' }}> React, </span>
                     <span style={{ fontWeight: 'bold' }}>JSX, </span>
@@ -159,13 +165,21 @@ function Resume() {
 
             <div className='section'>
               <a href='https://github.com/zepsgit/ocean-mammal-sounds-classification' target="_blank">
-                <p className='title'>Marine Mammal Sound Classification (01/2022 - 06/2022)
+                <p className='title'>Marine Mammal Sounds Classification (01/2022 - 06/2022)
                   <i class="link fa-solid fa-up-right-from-square"></i>
                 </p>
               </a>
               <div className='task'>
                 <ol>
-                  <li>Fetched audio data, and built metadata for all audio files for machine learning and deep learning.</li>
+                  <li>
+                    <span style={{ fontWeight: 'bold' }}> Python / Machine Learning </span>
+                  </li>
+                  <li>
+                    Employed machine learning techniques to protect North Atlantic Marine Mammals.
+                  </li>
+                  <li>
+                    Recognized marine mammal sounds using machine learning.
+                  </li>
                   <li>Used <span style={{ fontWeight: 'bold' }}>Python, </span><span style={{ fontWeight: 'bold' }}>Pandas, </span><span style={{ fontWeight: 'bold' }}>Librosa, </span>
                     and <span style={{ fontWeight: 'bold' }}>Scikit-Learn</span> in <span style={{ fontWeight: 'bold' }}>Jupyter Notebook </span>
                     to build machine learning models.
@@ -187,13 +201,15 @@ function Resume() {
               <div className='task'>
                 <ol>
                   <li>
+                    <span style={{ fontWeight: 'bold' }}> Python / Computer Vision / Image Processing </span>
+                  </li>
+                  <li>
+                    Recognized stave using image processing techniques.
+                  </li>
+                  <li>
                     Implemented several image pre-processing algorithms such as image filtering, binarization, and segmentation using
                     <span style={{ fontWeight: 'bold' }}> Python. </span>
                   </li>
-                  <li>Employed
-                    <span style={{ fontWeight: 'bold' }}> OpenCV </span>
-                    and <span style={{ fontWeight: 'bold' }}> CNN </span> for image classification.</li>
-
                 </ol>
               </div>
             </div>

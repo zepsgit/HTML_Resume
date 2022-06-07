@@ -32,9 +32,9 @@
     font-size: 13px;
 }
 p.name{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0;
 }
 
@@ -48,7 +48,7 @@ p.name{
     margin-bottom: 5px;
 }
 .intro .desc{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0;
 }
 .contact{
@@ -67,7 +67,6 @@ p.name{
     margin-top: 0;
     margin-bottom: 7px;
     color: black;
-    font-weight: 500;
 }
 
 .github{
@@ -155,7 +154,7 @@ p.name{
 }
 .work .title{
     color: blueviolet;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 0;
@@ -182,12 +181,12 @@ p.name{
     margin-bottom: 5px;
 }
 .task ol li{
-    font-size: 16px;
+    font-size: 15px;
 }
 .project .title{
     margin-bottom: 0px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 } 
 .project a{
@@ -210,14 +209,13 @@ margin-top: 0;
 margin-left: 0;
 padding-left: 17px;
 list-style: square;
-font-size: 18px;
 }
 .uni{
     padding-left: 20px;
     margin-bottom: 10px;
 }
 .uni .degree{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 0;
@@ -235,5 +233,5 @@ font-size: 18px;
 }
 li{
     font-family: serif;
-    font-size: 16px;
+    font-size: 14px;
 }
